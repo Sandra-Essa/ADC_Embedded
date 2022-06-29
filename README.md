@@ -45,6 +45,7 @@ The function shall be used by the client to read the ADC value. The function sha
 ---
 The ADC driver, it uses to interface an LM35 temperature sensor.
 The sensor temperature continuously monitored and displayed on LM016 character LCD.
+
 ---
 
 ### Demos
