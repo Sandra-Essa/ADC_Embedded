@@ -49,11 +49,9 @@ The sensor temperature continuously monitored and displayed on LM016 character L
 ---
 
 ### Demos
----
 ![](https://github.com/Sandra-Essa/ADC_Embedded/blob/main/GIF/ADC_driver_GIF.gif)
 ---
 ### Tools
-----
 - System Workbench - Code C Language 
 - Proteus version 8.11 - Simulation
 ----
