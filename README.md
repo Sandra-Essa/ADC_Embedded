@@ -37,11 +37,7 @@ The function shall be enabled only when the configuration macro USE_POLLING is s
 ----
 4- unsigned char ADC_ReadData(unsigned short int* DataPtr):
 
-The function shall be used by the client to read the ADC value. The function shall return 0 when
-
-there is a valid ADC value and the DataPtr is Dereferenced.. The function shall return 1 when
-
-there is no valid ADC value and the DataPtr is not dereferenced.
+The function shall be used by the client to read the ADC value. The function shall return 0 when there is a valid ADC value and the DataPtr is Dereferenced.. The function shall return 1 when there is no valid ADC value and the DataPtr is not dereferenced.
 
 ----
 5- An ISR shall be implemented to notify that a conversion is completed. The implementation will be enabled only when the configuration macro USE_POLLING is set to 0.
